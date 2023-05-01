@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Autoclicker</title>
+  <meta charset='UTF-8'>
+  <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href='../order/index.html'>Order</a></li>
+      <li><a href='../menu/index.html'>Services</a></li>
+      <li><a href='../orders/index.html'>Orders</a></li>
+      <li><a href='../add_funds/index.html'>Add funds</a></li>
+      <li class='balance nav-right'><span id='balance'></span></li>
+      <li class='logout nav-right'><a href='../logout/index.html'>Logout</a></li>
+    </ul>
+  </nav>
+  <div class='container'>
+    <h1>Verification Services (ONLY SMM PRODIVING)</h1>
+    <div id='popup_container' class='popup_container' hidden>
+      <button id='close_button' class='close_button'>✖</button>
+      <h2 id='popup_name' class='popup_name'>$name</h2>
+      <p id='popup_description' class='popup_description'>$description</p>
+      <button id='order_btn' class='order_btn'>Create order</button>
+    </div>
+  </div>
+  <script type='module' src='./script.js'></script>
+</body>
+
+</html>

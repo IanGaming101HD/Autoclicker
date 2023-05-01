@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Verification Services</title>
+  <meta charset='UTF-8' />
+  <link rel='stylesheet' href='./style.css'>
+</head>
+
+<body>
+  <div class='container'>
+    <div class='popup_container' hidden>
+      <div class='msg_container'>
+        <p id='msg' class='msg'>$msg</p>
+        <button id='close_button' class='close_button'>✖</button>
+      </div>
+    </div>
+    <form>
+      <label class='white' for='text'>Username:</label>
+      <br>
+      <input id='username' class='input_box' type='text' required>
+      <br>
+      <label class='white' for='text'>Email:</label>
+      <br>
+      <input id='email' class='input_box' type='email' required>
+      <br>
+      <label class='white' for='password'>Password:</label>
+      <br>
+      <input id='password' class='input_box' type='password' required>
+      <br>
+      <label class='white' for='password'>Confirm password:</label>
+      <br>
+      <input id='confirm_password' class='input_box' type='password' required>
+      <br>
+      <input id='checkbox' name='checkbox' type='checkbox'>
+      <label class='white' for='checkbox'>I have read and agreed with <a id='tos'>Terms of Service</a></label>
+      <br>
+      <input id='signin_btn' class='submit_btn' type='submit' value='Sign up'>
+      <br>
+      <p class='white'>Already have an account?<a id='signin'>Sign in</a></p>
+  </form>
+  </div>
+  <script type='module' src='./script.js'></script>
+</body>
+
+</html>
