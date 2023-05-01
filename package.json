@@ -44,8 +44,5 @@
         "snap"
       ]
     }
-  },
-  "dependencies": {
-    "mongoose": "^7.0.5"
   }
 }

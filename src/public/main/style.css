@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: Sans-Serif;
+    background-color: #000000;
+}
+
+.container {
+    margin-left: 10%;
+    margin-top: 6%;
+}
